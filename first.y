@@ -525,7 +525,6 @@ left:		LBRACE maths RBRACE
 %%
 
 
-
 int main(int argc, char* argv[]){
 	char fname[100];
 	strcpy(fname, argv[1]);
@@ -535,4 +534,4 @@ int main(int argc, char* argv[]){
 
 void yyerror (char *msg) {
 	fprintf(html, "%s\n",msg);
-	}
+}
